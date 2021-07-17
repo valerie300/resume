@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: "Microsoft JhengHei", Arial, sans-serif;
+}
+/* img 記得下 display: block，消除圖片底下的白邊 */
+img{
+	display: block;
+}
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*header*/
+.joanne {
+  font-size: 75px;
+  line-height: 1.2;
+  padding-bottom: 10px;
+  margin: 50px 0;
+  border-bottom: 2px solid black;
+}
+/*main*/
+.heading,
+.whiteTitle {
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 28px;
+  font-weight: 600;
+}
+.heading {
+  border-bottom: 1px solid black;
+}
+.introduction {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.redEngTitle {
+  color: #a00404;
+  margin: 20px;
+}
+.redEngTitle,
+.whiteEngTitle {
+  font-size: 24px;
+}
+.whiteTitle,
+.whiteEngTitle,
+.bgColor,
+.footer,
+.skillList,
+.contactcenter {
+  color: #fff;
+}
+.whiteTitle {
+  border-bottom: 1px solid white;
+}
+.bgColor,
+.footer {
+  background-color: #415165;
+}
+.bgColor {
+  text-align: center;
+  margin-top: 50px;
+  padding: 1px 40px 15px;
+}
+.skillList {
+  max-width: 250px;
+  margin: 40px auto;
+  border-left: 1px solid #fff;
+  text-align: left;
+}
+.skillList li {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.workList {
+  margin-left: 20px;
+  padding-left: 15px;
+  border-left: 1px solid black;
+}
+.workList > li:first-child {
+  margin-top: 15px;
+}
+.workList li {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.simtreeImg{
+  margin: 15px;
+}
+.part {
+  margin: 10px 0;
+  line-height: 1.5;
+  max-width: 500px;
+  font-size: 16px;
+}
+.pic {
+  margin-top: 20px;
+}
+.learn {
+  margin-top: 10px;
+  font-size: 16px;
+}
+/*footer*/
+.contact {
+  padding-top: 25px;
+  text-align: center;
+}
+.contactcenter {
+  text-align: center;
+}
+.contactcenter li {
+  margin: 15px 0 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.contactcenter a:hover {
+  color: thistle;
+}
+.icon {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.icon > a {
+  position: relative;
+  margin: 0 10px;
+}
+.icon > a:hover {
+  animation-name: dancing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes dancing {
+  from {
+    top: 0;
+  }
+  to {
+    top: 10px;
+  }
+}
